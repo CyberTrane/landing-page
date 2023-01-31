@@ -75,6 +75,7 @@ button {
 .section img {
     height: 250px;
     flex: 50%;
+    border-radius: 8px;
 }
 
 /* Images/Information Section or 2nd Section */
