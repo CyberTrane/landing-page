@@ -38,4 +38,37 @@ a {
 
 .section {
     display: flex;
+    padding: 100px;
+
+}
+
+.title {
+    flex: 1;
+}
+
+.title h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.title p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    border-style: none;
+    padding: 8px 28px;
+}
+
+.section img {
+    /* width: 500px; */
+    width: auto;
+    height: 250px;
 }
