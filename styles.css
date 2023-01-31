@@ -11,8 +11,8 @@ body {
 
 header {
     display: flex;
-    padding: 8px;
-    justify-content: space-around;
+    padding: 8px 300px;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -27,7 +27,7 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 a {
@@ -38,23 +38,26 @@ a {
 
 .section {
     display: flex;
-    padding: 100px;
-
+    padding: 100px 300px;
 }
 
 .title {
-    flex: 1;
+    padding-right: 24px;
+    flex: 50%;
 }
 
 .title h1 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
+    margin: 0;
 }
 
 .title p {
     color: #e5e7eb;
     font-size: 18px;
+    margin: 0;
+    margin-bottom: 12px;
 }
 
 button {
@@ -68,7 +71,6 @@ button {
 }
 
 .section img {
-    /* width: 500px; */
-    width: auto;
-    height: 250px;
+    height: 200px;
+    flex: 50%;
 }
