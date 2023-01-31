@@ -5,19 +5,29 @@ body {
     flex-direction: column;
 }
 
-header {
+.header-section {
     background-color: #1f2937;
+}
+
+header {
     display: flex;
+    padding: 8px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .logo {
+    margin: 0;
     font-size: 24px;
     color: #f9faf8;
 }
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
+    gap: 16px;
 }
 
 a {
