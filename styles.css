@@ -134,3 +134,35 @@ button {
     font-weight: bold;
     text-align: end;
 }
+
+/* Signup Section or 4th Section */
+
+.signup-section {
+    padding: 100px 400px;
+}
+
+.signup {
+    background-color: #3882f6;
+    padding: 48px 120px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.signup p {
+    margin: 0;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.signup p strong {
+    margin: 0;
+    color: #e5e7eb;
+    font-size: 24px;
+}
+
+.signup button {
+    padding: 8px 28px;
+    border: 2px solid #e5e7eb;
+    margin-left: auto;
+}
