@@ -13,7 +13,7 @@ body {
 
 header {
     display: flex;
-    padding: 8px 300px;
+    padding: 12px 300px;
     justify-content: space-between;
     align-items: center;
 }
@@ -138,7 +138,7 @@ button {
 /* Signup Section or 4th Section */
 
 .signup-section {
-    padding: 100px 400px;
+    padding: 100px 420px;
 }
 
 .signup {
@@ -165,4 +165,15 @@ button {
     padding: 8px 28px;
     border: 2px solid #e5e7eb;
     margin-left: auto;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1f2937;
+    color:#e5e7eb;
+    padding: 32px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
